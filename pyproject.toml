@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "sample"
+name = "streamlit-dashboard-sample"
 version = "0.1.0"
 description = ""
 authors = ["hato0501 <k.harada.dev@gmail.com>"]
@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 numpy = "^1.26.2"
+streamlit = "^1.29.0"
+streamlit-option-menu = "^0.3.6"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.3"

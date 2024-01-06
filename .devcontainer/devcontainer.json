@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.0/containers/python-3
 {
-    "name": "sample-project",
+    "name": "streamlit-dashboard-sample",
     "build": {
         "dockerfile": "Dockerfile",
         "context": ".."
@@ -22,28 +22,28 @@
         // Configure properties specific to VS Code.
         "vscode": {
             "extensions": [
-				// Backend向け
-				"ms-python.python",
-				"ms-python.black-formatter",
-				"matangover.mypy",
-				"charliermarsh.ruff",
-				"njpwerner.autodocstring",
-				"ms-toolsai.jupyter",
-				"tamasfe.even-better-toml",
+                // Backend向け
+                "ms-python.python",
+                "ms-python.black-formatter",
+                "matangover.mypy",
+                "charliermarsh.ruff",
+                "njpwerner.autodocstring",
+                "ms-toolsai.jupyter",
+                "tamasfe.even-better-toml",
                 // docs
-				"hediet.vscode-drawio",
-				"yzhang.markdown-all-in-one",
-				"bierner.github-markdown-preview",
-				"bierner.markdown-mermaid",
-				"jebbs.plantuml",
+                "hediet.vscode-drawio",
+                "yzhang.markdown-all-in-one",
+                "bierner.github-markdown-preview",
+                "bierner.markdown-mermaid",
+                "jebbs.plantuml",
                 // Dev
                 "ms-vscode.makefile-tools",
-				"humao.rest-client",
-				"github.vscode-github-actions",
-				"eamodio.gitlens",
-				"donjayamanne.githistory",
-				"GitHub.copilot",
-				"GitHub.copilot-chat"
+                "humao.rest-client",
+                "github.vscode-github-actions",
+                "eamodio.gitlens",
+                "donjayamanne.githistory",
+                "GitHub.copilot",
+                "GitHub.copilot-chat"
             ]
         }
     },
@@ -54,8 +54,8 @@
     // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
     "remoteUser": "vscode",
     "features": {
-		"ghcr.io/devcontainers/features/git:1": {},
-		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
         "ghcr.io/devcontainers/features/aws-cli:1": {}
     }
 }
