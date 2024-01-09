@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap');
 
-body {
+div{
     font-family: 'M PLUS 2'!important;
     /* font-size: 18px; */
     /* color: #091747; */
 }
 
-[data-testid="stMetricValue"] {
-    font-family: 'M PLUS 2'!important;
-}
 
 /* 
 div[data-testid="stToolbar"] {
